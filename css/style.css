@@ -33,6 +33,30 @@
     padding:20px 40px 20px 40px !important;
 }
 
+.btn-yellow-medium {
+    color:#382F0A;
+    background-color:#FFD731;
+    padding:10px 60px 10px 60px !important;
+    border-radius: 20px 20px 20px 20px !important;
+    -moz-border-radius: 20px 20px 20px 20px !important;
+    -webkit-border-radius: 20px 20px 20px 20px !important;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
+}
+
+.btn-white-medium {
+    color:#382F0A;
+    background-color:#ffffff;
+    padding:10px 60px 10px 60px !important;
+    border-radius: 20px 20px 20px 20px !important;
+    -moz-border-radius: 20px 20px 20px 20px !important;
+    -webkit-border-radius: 20px 20px 20px 20px !important;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
+}
+
 .w-60{
     width: 60%;
 }
@@ -55,6 +79,15 @@
     -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.10);
     box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.10)
 }
+
+.border-box{
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    background-color: #F3F3F3;
+}
+
 
 .bg-gray {
     background-color: #F2F2F2;
@@ -96,7 +129,7 @@
   /* Add styles to the form container */
   .form-container {
     max-width: 350px;
-    padding: 10px;
+    padding: 25px;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     -moz-border-radius: 20px 20px 20px 20px;
@@ -146,6 +179,58 @@
   .form-container .btn:hover, .open-button:hover {
     opacity: 1;
   }
+  
+  input[type=text] {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #B2B2B2;
+    margin: 5px 0 20px 0;
+    }
+
+    .btn-masuk{
+        border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        border: 0px solid #000000;
+        background-color: #ffffff;
+        -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.10);
+        -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.10);
+        box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.10);
+        padding: 7px 50px 7px 50px;
+        color:#838383;
+        font-weight:500;
+        margin: 20px 0 20px 0;
+    }
+    .btn-logout{
+        border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        border: 0px solid #000000;
+        background-color: #ffffff;
+        -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.10);
+        -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.10);
+        box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.10);
+        padding: 7px 50px 7px 50px;
+        color:#838383;
+        font-weight:500;
+        /* margin: 20px 0 20px 0; */
+    }
+
+    .btn-try{
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        border: 0px solid #FFD731;
+        background-color: #FFD731;
+        -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.10);
+        -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.10);
+        box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.10);
+        padding: 7px 30px 7px 30px;
+        color:#383838;
+        font-weight:500;
+        margin: 20px 0 20px 0;
+    }
 
 
 

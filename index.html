@@ -23,7 +23,7 @@
 
             <a href=" #" class="nav-bar-brand"><img src="images/limit.jpg" class="h-w-50" alt=""></a>
             <a class="nav-link font-weight-bold px-3 text-dark text-uppercase text-spacing-1 btn btn-yellow order-sm-last"
-                href="#" onclick="openForm()">Coba
+                href="#">Coba
                 Gratis</a>
             <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
                 <span class="navbar-toggler-icon"></span>
@@ -38,24 +38,36 @@
                             style="font-size: 18px;" href="#">Pricing</a>
                     </li>
                     <li class="nav-item"><a class="nav-link font-weight-500 px-3 text-primary mb-0"
-                            style="font-size: 18px;" href="#">Masuk</a>
+                            style="font-size: 18px;" href="#" onclick="openForm()">Masuk</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <!-- End Navbar -->
+
+        <!-- coba gratis pop up -->
         <div class="chat-popup" id="myForm">
             <form action="/action_page.php" class="form-container">
-                <h1>Chat</h1>
-
-                <label for="msg"><b>Message</b></label>
-                <textarea placeholder="Type message.." name="msg" required></textarea>
-
-                <button type="submit" class="btn">Send</button>
-                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                <button type="button" class="close close_link" onclick="closeForm()" data-dismiss="modal"
+                    aria-hidden="true">&times;</button>
+                <label for="msg"><b></b></label>
+                <br>
+                <input placeholder="email / Phone" class="text-center" type="text">
+                <input placeholder="Password" class="text-center" type="text">
+                <center>
+                    <button type="submit" class="btn-masuk text-center mb-5">Masuk</button>
+                </center>
+                <h6 class="text-center mb-4" style="color:#838383">
+                    Tidak Memiliki Akun ?
+                </h6>
+                <center>
+                    <a class="font-weight-bold text-dark text-uppercase text-spacing-1  btn-try" href="#">Coba
+                        Gratis</a>
+                </center>
+                <!-- <button type="button" class="btn cancel" onclick="closeForm()">Close</button> -->
             </form>
         </div>
-
+        <!-- end coba gratis -->
 
         <hr class="mt-1">
     </div>
@@ -86,11 +98,11 @@
         <!-- End Banner -->
 
         <!-- Start Banner 2 -->
-        <section class="p-5">
+        <section class="p-5 mb-5">
             <div class="container-fluid">
                 <!-- Start Title -->
                 <div class="row justify-content-center align-items-center">
-                    <div class="col text-center mb-4">
+                    <div class=" col text-center mb-4">
                         <h1 class="text-capitalize text-gray mb-4">
                             <span>Kuntungan Jadi MOBIB</span></h1>
                         <hr style="width: 70%;">
@@ -153,7 +165,7 @@
     <!-- End Container -->
 
     <!-- Start Video -->
-    <Section class="p-5 bg-gray">
+    <Section class="p-5 bg-gray mt-5">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-2">
