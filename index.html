@@ -23,7 +23,7 @@
 
             <a href=" #" class="nav-bar-brand"><img src="images/limit.jpg" class="h-w-50" alt=""></a>
             <a class="nav-link font-weight-bold px-3 text-dark text-uppercase text-spacing-1 btn btn-yellow order-sm-last"
-                href="#">Coba
+                href="#" onclick="openForm()">Coba
                 Gratis</a>
             <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
                 <span class="navbar-toggler-icon"></span>
@@ -44,6 +44,18 @@
             </div>
         </nav>
         <!-- End Navbar -->
+        <div class="chat-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h1>Chat</h1>
+
+                <label for="msg"><b>Message</b></label>
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+
 
         <hr class="mt-1">
     </div>
@@ -237,6 +249,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
 </body>
 
 </html>
